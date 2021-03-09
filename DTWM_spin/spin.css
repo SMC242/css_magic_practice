@@ -1,0 +1,22 @@
+.spin {
+  transition: transform 1s ease-in-out;
+}
+
+.skull {
+  height: 50%;
+  width: 50%;
+}
+
+.spin:hover {
+  transform: rotate(360deg);
+}
+
+.centered {
+  position: relative;
+  display: block;
+  margin: auto;
+}
+
+body {
+  overflow: hidden;
+}
